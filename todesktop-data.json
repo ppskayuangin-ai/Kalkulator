@@ -1,0 +1,118 @@
+{
+  "appModelId": "com.todesktop.250926jscdd40du",
+  "appProtocol": {
+    "enabled": false,
+    "value": ""
+  },
+  "autoUpdates": {
+    "autoCheckIntervalMins": 0,
+    "autoUpdater": true,
+    "shouldAutoCheckInterval": false,
+    "shouldAutoCheckOnLaunch": true,
+    "updateReadyAction": {
+      "showInstallAndRestartPrompt": {
+        "mode": "never",
+        "options": {
+          "detail": "",
+          "installOnNextLaunchButton": "",
+          "message": "",
+          "restartAndInstallButton": ""
+        }
+      },
+      "showNotification": {
+        "mode": "always",
+        "options": {
+          "body": "",
+          "title": ""
+        }
+      }
+    }
+  },
+  "disableDevTools": false,
+  "fileAssetDetailsList": [
+    {
+      "md5Hash": "0WO0GHY33DP7Zrh8kE2ClQ==",
+      "name": "foto.html",
+      "relativeLocalPath": "files/foto.html",
+      "type": "file",
+      "url": "https://firebasestorage.googleapis.com/v0/b/todesktop-prod1.appspot.com/o/250926jscdd40du%2Ffiles%2Ffoto.html?alt=media&token=37805183-b1a6-4318-93cb-f1111726754d"
+    },
+    {
+      "md5Hash": "vF+l2fal/wLX/kQsDmymgQ==",
+      "name": "fotocopy.html",
+      "relativeLocalPath": "files/fotocopy.html",
+      "type": "file",
+      "url": "https://firebasestorage.googleapis.com/v0/b/todesktop-prod1.appspot.com/o/250926jscdd40du%2Ffiles%2Ffotocopy.html?alt=media&token=6fbe6404-fdcc-472e-b71e-54248a352bb2"
+    },
+    {
+      "md5Hash": "UJbW6UGOoP6eUbGDSQg0bQ==",
+      "name": "index.html",
+      "relativeLocalPath": "files/index.html",
+      "type": "file",
+      "url": "https://firebasestorage.googleapis.com/v0/b/todesktop-prod1.appspot.com/o/250926jscdd40du%2Ffiles%2Findex.html?alt=media&token=29b8b7ae-160e-4a2a-8169-7f6938664bd4"
+    },
+    {
+      "md5Hash": "D5fV3EgC47fxBeBApRmF7Q==",
+      "name": "pengaturan.html",
+      "relativeLocalPath": "files/pengaturan.html",
+      "type": "file",
+      "url": "https://firebasestorage.googleapis.com/v0/b/todesktop-prod1.appspot.com/o/250926jscdd40du%2Ffiles%2Fpengaturan.html?alt=media&token=676d8ede-7c6b-4bc1-9ae4-5869adbf1fce"
+    },
+    {
+      "md5Hash": "kjmBaKs3dPqyA0vibFLsIA==",
+      "name": "print.html",
+      "relativeLocalPath": "files/print.html",
+      "type": "file",
+      "url": "https://firebasestorage.googleapis.com/v0/b/todesktop-prod1.appspot.com/o/250926jscdd40du%2Ffiles%2Fprint.html?alt=media&token=c1f62fb3-987d-4ef5-86a6-c867508763d9"
+    },
+    {
+      "md5Hash": "sVt5VHCKojyF/yXAG9iMCA==",
+      "name": "riwayat.html",
+      "relativeLocalPath": "files/riwayat.html",
+      "type": "file",
+      "url": "https://firebasestorage.googleapis.com/v0/b/todesktop-prod1.appspot.com/o/250926jscdd40du%2Ffiles%2Friwayat.html?alt=media&token=b3af205d-cfaf-4c05-b615-068cef6a9db5"
+    },
+    {
+      "md5Hash": "86i7YFCa5hhUQBbGxjUWMA==",
+      "name": "style.css",
+      "relativeLocalPath": "files/css/style.css",
+      "type": "file",
+      "url": "https://firebasestorage.googleapis.com/v0/b/todesktop-prod1.appspot.com/o/250926jscdd40du%2Ffiles%2Fcss%2Fstyle.css?alt=media&token=b960f010-b5d6-4840-a84f-032e7c025598"
+    },
+    {
+      "md5Hash": "7/wIxbVlCR47dWuOghrGNQ==",
+      "name": "app.js",
+      "relativeLocalPath": "files/js/app.js",
+      "type": "file",
+      "url": "https://firebasestorage.googleapis.com/v0/b/todesktop-prod1.appspot.com/o/250926jscdd40du%2Ffiles%2Fjs%2Fapp.js?alt=media&token=beb20398-ce0f-442b-97b8-8532f984bba2"
+    }
+  ],
+  "googleOAuthIsExternal": false,
+  "icon": "https://download.todesktop.com/default-icons/blank-icon.png",
+  "id": "250926jscdd40du",
+  "insecure": false,
+  "internalUrls": {
+    "enabled": false,
+    "value": ""
+  },
+  "lastUsedDesktopifyVersion": "6.20.0",
+  "menus": [],
+  "name": "Blank App",
+  "offlineScreen": {
+    "buttonBackgroundColor": "#FAFAFA",
+    "buttonTextColor": "#111827",
+    "enabled": true
+  },
+  "plugins": [],
+  "shouldAlwaysDisplayDockIcon": true,
+  "shouldLaunchAtStartupByDefault": false,
+  "shouldMinimizeToTray": true,
+  "shouldOnlyAllowVerifiedProtocols": true,
+  "singleInstance": false,
+  "trays": [],
+  "userAgent": {
+    "enabled": false,
+    "value": ""
+  },
+  "windows": []
+}

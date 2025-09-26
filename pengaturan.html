@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pengaturan - KasirKu</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <a href="index.html" class="back-button">← Kembali</a>
+            <h1>Pengaturan Harga</h1>
+        </header>
+        <main class="settings-container">
+            <h2>Harga Fotokopi</h2>
+            <div class="input-group">
+                <label for="harga-bw">Hitam Putih (per lembar)</label>
+                <input type="number" id="harga-bw">
+            </div>
+            <div class="input-group">
+                <label for="harga-warna">Warna (per lembar)</label>
+                <input type="number" id="harga-warna">
+            </div>
+
+            <h2>Harga Print Out</h2>
+            <div class="input-group">
+                <label for="harga-print-bw">Hitam Putih (per halaman)</label>
+                <input type="number" id="harga-print-bw">
+            </div>
+            <div class="input-group">
+                <label for="harga-print-warna">Warna (per halaman)</label>
+                <input type="number" id="harga-print-warna">
+            </div>
+
+            <h2>Harga Cetak Foto</h2>
+            <div class="input-group">
+                <label for="harga-2x3">Ukuran 2x3</label>
+                <input type="number" id="harga-2x3">
+            </div>
+            <div class="input-group">
+                <label for="harga-3x4">Ukuran 3x4</label>
+                <input type="number" id="harga-3x4">
+            </div>
+            <div class="input-group">
+                <label for="harga-4x6">Ukuran 4x6</label>
+                <input type="number" id="harga-4x6">
+            </div>
+            <button id="simpan-pengaturan" class="btn-primary">Simpan Pengaturan</button>
+        </main>
+    </div>
+    <footer class="watermark">Dirancang dan dibuat oleh Anshar</footer>
+    <script src="js/app.js"></script>
+</body>
+</html>

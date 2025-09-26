@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kalkulator Fotokopi - KasirKu</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <a href="index.html" class="back-button">← Kembali</a>
+            <h1>Kalkulator Fotokopi</h1>
+        </header>
+        <main class="calculator-container">
+            <div class="input-group">
+                <label for="lembar">Jumlah Lembar</label>
+                <input type="number" id="lembar" placeholder="Masukkan jumlah lembar" min="1">
+            </div>
+            <div class="input-group">
+                <label for="rangkap">Jumlah Rangkap</label>
+                <input type="number" id="rangkap" placeholder="Masukkan jumlah rangkap" value="1" min="1">
+            </div>
+            <div class="input-group">
+                <label>Jenis Cetak</label>
+                <div class="radio-group">
+                    <input type="radio" id="hitam-putih" name="jenis-cetak" value="bw" checked>
+                    <label for="hitam-putih">Hitam Putih</label>
+                    <input type="radio" id="warna" name="jenis-cetak" value="color">
+                    <label for="warna">Warna</label>
+                </div>
+            </div>
+            <button id="hitung-fotocopy" class="btn-primary">Hitung</button>
+            <div class="result-container" id="hasil-fotocopy" style="display: none;">
+                <h2>Hasil</h2>
+                <p>Total Lembar: <span id="total-lembar"></span></p>
+                <p>Total Harga: <span id="total-harga-fotocopy"></span></p>
+                <button id="simpan-fotocopy" class="btn-secondary">Simpan Transaksi</button>
+            </div>
+        </main>
+    </div>
+    <footer class="watermark">Dirancang dan dibuat oleh Anshar</footer>
+    <script src="js/app.js"></script>
+</body>
+</html>
